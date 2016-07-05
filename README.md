@@ -62,4 +62,4 @@ github:https://github.com/pihat/Android_CircleProgress
 11、类似支付宝芝麻信用仪表盘
 ![img](https://github.com/ldoublem/AlpayRing/raw/master/app/pic/1.png)
 ![img](https://github.com/ldoublem/AlpayRing/raw/master/app/pic/gif1.gif)
-github:hhttps://github.com/ldoublem/AlpayRing
+github:https://github.com/ldoublem/AlpayRing
