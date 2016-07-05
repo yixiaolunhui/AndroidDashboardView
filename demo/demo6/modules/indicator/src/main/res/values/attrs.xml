@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by ttdevs at 16-6-16 下午4:42.
+  ~ E-mail:ttdevs@gmail.com
+  ~ https://github.com/ttdevs
+  ~ Copyright (c) 2016 ttdevs
+  -->
+
+<resources>
+    <!--<declare-styleable name="SwipeBackLayout">-->
+    <!--<attr name="edge_flag">-->
+    <!--<enum name="left" value="0" />-->
+    <!--<enum name="right" value="1" />-->
+    <!--<enum name="bottom" value="2" />-->
+    <!--<enum name="all" value="3" />-->
+    <!--</attr>-->
+    <!--<attr name="shadow_bottom" format="reference" />-->
+    <!--</declare-styleable>-->
+
+    <!-- CircleIndicator & CircleProgress -->
+    <declare-styleable name="CircleView">
+        <attr name="circle_divider_width" format="dimension" />
+        <attr name="circle_normal_gray" format="color" />
+
+        <attr name="circle_out_indicator_size" format="dimension" />
+
+        <attr name="circle_title_size" format="dimension" />
+        <attr name="circle_content_size" format="dimension" />
+        <attr name="circle_unit_size" format="dimension" />
+        <attr name="circle_alert_size" format="dimension" />
+
+        <attr name="circle_center_out" format="dimension" />
+        <attr name="circle_center_middle" format="dimension" />
+        <attr name="circle_center_inside" format="dimension" />
+
+        <attr name="circle_indicator_center" format="color" />
+        <attr name="circle_indicator_light" format="color" />
+        <attr name="circle_indicator_gray" format="color" />
+
+        <attr name="circle_title" format="color" />
+        <attr name="circle_content" format="color" />
+        <attr name="circle_unit" format="color" />
+        <attr name="circle_alert" format="color" />
+    </declare-styleable>
+
+    <!-- Line Indicator -->
+    <declare-styleable name="LineIndicator">
+        <attr name="lineAlertColor" format="color|reference" />
+        <attr name="lineAlertSize" format="dimension" />
+        <attr name="lineProgressBackground" format="color" />
+        <attr name="lineProgressColor" format="color" />
+        <attr name="lineIndicatorTextSize" format="dimension" />
+        <attr name="lineIndicatorTextColor" format="color" />
+        <attr name="lineIndicatorBackground" format="color" />
+    </declare-styleable>
+</resources>

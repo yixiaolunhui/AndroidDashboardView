@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgress">
+        <!-- 进度条的背景色-->
+        <attr name="bgColor" format="color" />
+        <!-- 进度条的前景色 起始颜色-->
+        <attr name="foreStartColor" format="color" />
+        <!-- 进度条的前景色 结束颜色-->
+        <attr name="foreEndColor" format="color" />
+        <!-- 进度条的大小-->
+        <attr name="progressWidth" format="dimension" />
+        <!-- 最大进度-->
+        <attr name="maxProgress" format="integer" />
+        <!-- 现在的进度-->
+        <attr name="currProgress" format="integer" />
+        <!-- 进度条的起始位置-->
+        <attr name="progressInitialPosition" format="integer" />
+        <!-- 是否使用动画-->
+        <attr name="useAnimation" format="boolean" />
+        <!-- 使用渐变-->
+        <attr name="useGradient" format="boolean" />
+        <!-- 边角是否是圆的-->
+        <attr name="isCircleCorner" format="boolean" />
+        <!-- 是否是实心的-->
+        <attr name="isSolid" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TickCircleProgress">
+        <!-- 刻度条的粗细-->
+        <attr name="tickWidth" format="dimension" />
+        <!-- 刻度的颜色-->
+        <attr name="tickColor" format="color" />
+        <!-- 刻度条的高度-->
+        <attr name="tickMarkHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TextCircleProgress">
+        <!-- 主标题颜色-->
+        <attr name="headColor" format="color" />
+        <!-- 副标题颜色-->
+        <attr name="subHeadColor" format="color" />
+        <!-- 主标题字体大小-->
+        <attr name="headSize" format="dimension" />
+        <!-- 副标题字体大小-->
+        <attr name="subHeadSize" format="dimension" />
+        <!-- 底部标题颜色-->
+        <attr name="bottomHeadColor" format="color" />
+        <!-- 底部标题大小-->
+        <attr name="bottomHeadSize" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgress">
+        <attr name="circleStrokeWidth" format="dimension" />
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="valueText" format="string" />
+        <attr name="valueTextColor" format="color" />
+        <attr name="valueTextSize" format="dimension" />
+        <attr name="despText" format="string" />
+        <attr name="despTextColor" format="color" />
+        <attr name="despTextSize" format="dimension" />
+        <attr name="valueTextIsDisplayable" format="boolean" />
+        <attr name="despTextIsDisplayable" format="boolean" />
+        <attr name="style">
+            <enum name="STROKE" value="0" />
+            <enum name="FILL" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

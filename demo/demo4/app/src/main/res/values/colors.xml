@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Dashboard-->
+    <color name="white_dash">#E1E4E5</color>
+    <color name="downy">#61D0CE</color>
+    <color name="cadet_blue">#4BA1A1</color>
+
+</resources>

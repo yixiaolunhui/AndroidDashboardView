@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by ttdevs at 16-6-7 下午4:53.
+  ~ E-mail:ttdevs@gmail.com
+  ~ https://github.com/ttdevs
+  ~ Copyright (c) 2016 ttdevs
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF4F4EC"
+    tools:context=".IndicatorViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/global_dimen_normal">
+
+        <Button
+            android:id="@+id/bt_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Line Indicator" />
+
+        <com.ttdevs.indicator.LineIndicator
+            android:id="@+id/li_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/global_dimen_normal"
+            android:layout_marginTop="@dimen/global_dimen_normal" />
+
+        <Button
+            android:id="@+id/bt_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="indicator" />
+
+        <com.ttdevs.indicator.CircleIndicator
+            android:id="@+id/ci_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/bt_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="progress" />
+
+        <com.ttdevs.indicator.CircleProgress
+            android:id="@+id/cp_1"
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center_horizontal" />
+
+        <com.ttdevs.indicator.CircleProgress
+            android:id="@+id/cp_2"
+            android:layout_width="320dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_horizontal" />
+
+        <com.ttdevs.indicator.CircleProgress
+            android:id="@+id/cp_3"
+            android:layout_width="220dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>

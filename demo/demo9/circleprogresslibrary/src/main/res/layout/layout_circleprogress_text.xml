@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ethanco.circleprogresslibrary.CircleProgress
+        android:id="@+id/circleProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        custom:bgColor="@color/color_bg"
+        custom:currProgress="160"
+        custom:foreEndColor="@color/color2"
+        custom:foreStartColor="@color/color1"
+        custom:progressInitialPosition="135"
+        custom:progressWidth="24dp"
+        custom:useAnimation="true" />
+
+    <com.ethanco.circleprogresslibrary.TickCircleProgress
+        android:id="@+id/tickCircleProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="45dp"
+        custom:bgColor="@color/color_bg"
+        custom:currProgress="160"
+        custom:foreEndColor="@color/color4"
+        custom:foreStartColor="@color/color3"
+        custom:maxProgress="270"
+        custom:progressInitialPosition="135"
+        custom:progressWidth="16dp"
+        custom:tickColor="@color/color_bg"
+        custom:tickMarkHeight="20dp"
+        custom:tickWidth="1dp"
+        custom:useAnimation="true" />
+
+    <View
+        android:id="@+id/refer_view"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:layout_centerInParent="true"></View>
+
+    <TextView
+        android:id="@+id/tvHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/refer_view"
+        android:layout_centerHorizontal="true"
+        android:text="INFO"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvSubhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/refer_view"
+        android:layout_centerHorizontal="true"
+        android:text="this is subHead"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvBottomHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="BOTTOM"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.ethanco.circleprogresslibrary.CircleProgress
+        android:id="@+id/myCircleProgress"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        custom:bgColor="@color/color_bg"
+        custom:currProgress="160"
+        custom:foreEndColor="@color/color2"
+        custom:foreStartColor="@color/color1"
+        custom:maxProgress="270"
+        custom:progressInitialPosition="135"
+        custom:progressWidth="12dp"
+        custom:useAnimation="true" />
+
+    <com.ethanco.circleprogresslibrary.CircleProgress
+        android:id="@+id/myCircleProgress2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        custom:bgColor="@color/color_bg"
+        custom:currProgress="160"
+        custom:foreStartColor="@color/color1"
+        custom:isSolid="true"
+        custom:maxProgress="360"
+        custom:progressInitialPosition="-90"
+        custom:progressWidth="12dp"
+        custom:useAnimation="true"
+        custom:useGradient="false" />
+
+    <com.ethanco.circleprogresslibrary.TickCircleProgress
+        android:id="@+id/myTickCircleProgress"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/myCircleProgress"
+        custom:bgColor="@color/color_bg"
+        custom:currProgress="160"
+        custom:foreEndColor="@color/color4"
+        custom:foreStartColor="@color/color3"
+        custom:maxProgress="270"
+        custom:progressInitialPosition="135"
+        custom:progressWidth="12dp"
+        custom:tickColor="@color/color_bg"
+        custom:tickMarkHeight="10dp"
+        custom:tickWidth="1dp"
+        custom:useAnimation="true" />
+
+    <com.ethanco.circleprogresslibrary.TickCircleProgress
+        android:id="@+id/myTickCircleProgress3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/myCircleProgress"
+        custom:bgColor="@color/color_bg"
+        custom:currProgress="160"
+        custom:foreEndColor="@color/color4"
+        custom:foreStartColor="@color/color3"
+        custom:maxProgress="360"
+        custom:progressInitialPosition="-90"
+        custom:progressWidth="12dp"
+        custom:tickColor="@color/color_bg"
+        custom:tickMarkHeight="10dp"
+        custom:tickWidth="1dp"
+        custom:useAnimation="true" />
+
+
+    <com.ethanco.circleprogresslibrary.TickCircleProgress
+        android:id="@+id/myTickCircleProgress2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/myTickCircleProgress"
+        custom:bgColor="@color/color_bg"
+        custom:currProgress="160"
+        custom:foreEndColor="@color/color4"
+        custom:foreStartColor="@color/color3"
+        custom:maxProgress="270"
+        custom:progressInitialPosition="135"
+        custom:progressWidth="12dp"
+        custom:tickColor="@android:color/black"
+        custom:tickMarkHeight="50dp"
+        custom:tickWidth="2dp"
+        custom:useAnimation="true" />
+
+    <com.ethanco.circleprogresslibrary.TickCircleProgress
+        android:id="@+id/myTickCircleProgress4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/myTickCircleProgress"
+        custom:bgColor="@color/color_bg"
+        custom:currProgress="160"
+        custom:foreEndColor="@color/color4"
+        custom:foreStartColor="@color/color3"
+        custom:maxProgress="360"
+        custom:progressInitialPosition="-90"
+        custom:progressWidth="12dp"
+        custom:tickColor="@android:color/black"
+        custom:tickMarkHeight="50dp"
+        custom:tickWidth="2dp"
+        custom:useAnimation="true" />
+
+    <Button
+        android:id="@+id/btnSetProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="SET PROGRESS" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.ethanco.circleprogresslibrary.TextCircleProgress
+        android:id="@+id/myTextCircleProgress"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        custom:bottomHeadSize="14sp"
+        custom:headColor="@color/color2"
+        custom:headSize="18sp"
+        custom:subHeadColor="@color/color4"
+        custom:subHeadSize="14sp" />
+
+    <Button
+        android:id="@+id/btnSetProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="SET PROGRESS" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DashboardView">
+        <attr name="dashColor" format="color"/>
+        <attr name="dashProColor" format="color"/>
+        <attr name="dashWidth" format="dimension"/>
+        <attr name="dashProWidth" format="dimension"/>
+        <attr name="dashProMax" format="float"/>
+        <attr name="dashProgress" format="float"/>
+        <attr name="dashIcon" format="reference"/>
+        <attr name="dashTitleSize" format="dimension"/>
+        <attr name="dashTitlColor" format="reference"/>
+        <attr name="dashTitle" format="string"/>
+
+        <!--style-->
+        <attr name="dashStyle" format="integer"/>
+    </declare-styleable>
+</resources>
