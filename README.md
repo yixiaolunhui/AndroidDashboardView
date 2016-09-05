@@ -63,3 +63,10 @@ github:https://github.com/pihat/Android_CircleProgress
 ![img](https://github.com/ldoublem/AlpayRing/raw/master/app/pic/1.png)
 ![img](https://github.com/ldoublem/AlpayRing/raw/master/app/pic/gif1.gif)
 github:https://github.com/ldoublem/AlpayRing
+
+
+12、Imitation of Ali credit sesame new old ring view.
+![img](https://github.com/HotBitmapGG/CreditSesameRingView/raw/master/art/01.gif)
+![img](https://github.com/HotBitmapGG/CreditSesameRingView/raw/master/art/02.gif)
+
+github：https://github.com/HotBitmapGG/CreditSesameRingView
