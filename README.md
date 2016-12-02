@@ -70,3 +70,6 @@ github:https://github.com/ldoublem/AlpayRing
 ![img](https://github.com/HotBitmapGG/CreditSesameRingView/raw/master/art/02.gif)
 
 github：https://github.com/HotBitmapGG/CreditSesameRingView
+13、带载入动画的环形进度条，可高度配置，支持配置成表盘。
+![img](https://github.com/AlexMofer/ProjectX/raw/master/circleprogressbar/screenshots.gif)
+github：https://github.com/AlexMofer/CircleProgressBar
