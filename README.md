@@ -73,3 +73,7 @@ github：https://github.com/HotBitmapGG/CreditSesameRingView
 13、带载入动画的环形进度条，可高度配置，支持配置成表盘。
 ![img](https://github.com/AlexMofer/ProjectX/raw/master/circleprogressbar/screenshots.gif)
 github：https://github.com/AlexMofer/CircleProgressBar
+
+14、包含三个自定义View 日历仪表盘 圆盘
+![img](https://github.com/huangyanbin/CalendarView/raw/master/screenshort.gif)
+github：https://github.com/huangyanbin/CalendarView
